@@ -25,5 +25,4 @@
     <a href="" class="btn btn-danger">Cancel</a>
 </body>
 </div>
-</ody>
 </html>
