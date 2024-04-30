@@ -42,12 +42,12 @@ $result = mysqli_query($conn, $sql);
 while ($row = mysqli_fetch_array($result)) {
 ?>
     <tr>
-        <td><?=$row["รหัสเคส"]?></td>
-        <td><?=$row["ชื่อผู้ป่วย"]?></td>
-        <td><?=$row["พยาบาลที่เรียก"]?></td>
-        <td><?=$row["สถานที่รับ"]?></td>
-        <td><?=$row["สถานที่ส่ง"]?></td>
-        <td><?=$row["ความเร่งด่วน"]?></td>
+        <td><?=$row["IDcase"]?></td>
+        <td><?=$row["Patient name"]?></td>
+        <td><?=$row["Nurse name"]?></td>
+        <td><?=$row["Pick up location"]?></td>
+        <td><?=$row["Place of delivery	"]?></td>
+        <td><?=$row["urgency"]?></td>
     </tr>
 <?php
 }

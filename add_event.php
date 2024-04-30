@@ -10,19 +10,22 @@
 </head>
 <body>
     <div class="container">
-    <form method="POST" action="insert_event.php">
-    <label>ชื่อผู้ป่วย:</label>
-    <input type="text" ชื่อผู้ป่วย="ชื่อผู้ป่วย" class="form-control" placeholder="ชื่อผู้ป่วย"> <br>
-    <label>พยาบาลที่เรียก:</label>
-    <input type="text" พยาบาลที่เรียก="พยาบาลที่เรียก" class="form-control" placeholder="พยาบาลที่เรียก"> <br>
-    <label>สถานที่รับ:</label>
-    <input type="text" สถานที่รับ="สถานที่รับ" class="form-control" placeholder="สถานที่รับ"><br>
-    <label>สถานที่ส่ง:</label>
-    <input type="text" สถานที่ส่ง="สถานที่ส่ง" class="form-control" placeholder="สถานที่ส่ง"><br>
-    <label>ความเร่งด่วน</label>
-    <input type="text" ความเร่งด่วน="ความเร่งด่วน" class="form-control" placeholder="ความเร่งด่วน"><br>
-    <input type="submit" value="submit" class="btn btn-success" >
-    <a href="" class="btn btn-danger">Cancel</a>
+        <form method="POST" action="insert_event.php">
+            <label>ชื่อผู้ป่วย:</label>
+            <input type="text" name="ชื่อผู้ป่วย" class="form-control" placeholder="ชื่อผู้ป่วย" required> <br>
+            <label>พยาบาลที่เรียก:</label>
+            <input type="text" name="พยาบาลที่เรียก" class="form-control" placeholder="พยาบาลที่เรียก" required> <br>
+            <label>สถานที่รับ:</label>
+            <input type="text" name="สถานที่รับ" class="form-control" placeholder="สถานที่รับ" required><br>
+            <label>สถานที่ส่ง:</label>
+            <input type="text" name="สถานที่ส่ง" class="form-control" placeholder="สถานที่ส่ง" required><br>
+            <label>ความเร่งด่วน</label>
+            <input type="text" name="ความเร่งด่วน" class="form-control" placeholder="ความเร่งด่วน" required><br>
+            <input type="submit" value="submit" class="btn btn-success" >
+            <a href="show_db.php" class="btn btn-danger">Cancel</a>
+        </form>
+    
+    </div>
 </body>
 </div>
 </html>
