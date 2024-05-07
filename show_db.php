@@ -37,6 +37,7 @@ $result = mysqli_query($conn, $sql);
         <th>สถานที่รับ</th>
         <th>สถานที่ส่ง</th>
         <th>ความเร่งด่วน</th>
+        <th>ประเภทเปล</th>
     </tr>
 <?php
 while ($row = mysqli_fetch_array($result)) {

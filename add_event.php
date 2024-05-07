@@ -21,6 +21,8 @@
             <input type="text" name="สถานที่ส่ง" class="form-control" placeholder="สถานที่ส่ง" required><br>
             <label>ความเร่งด่วน</label>
             <input type="text" name="ความเร่งด่วน" class="form-control" placeholder="ความเร่งด่วน" required><br>
+            <label>ประเภทเปล:</label>
+            <input type="text" name="ประเภทเปล" class="form-control" placeholder="ประเภทเปล" required> <br>
             <input type="submit" value="submit" class="btn btn-success" >
             <a href="show_db.php" class="btn btn-danger">Cancel</a>
         </form>
